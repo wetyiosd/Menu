@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/shop_settings"
+        android:orderInCategory="2"
+        android:title="Shop"
+        android:icon="@drawable/img"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/call_settings"
+        android:orderInCategory="3"
+        android:title="Call"
+        android:icon="@drawable/img_1"
+        />
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/camera_settings"
+            android:orderInCategory="4"
+            android:title="Camera"
+            android:icon="@drawable/img_2"
+
+            android:onClick="camera"/>
+        <item
+            android:id="@+id/video_settings"
+            android:orderInCategory="5"
+            android:title="Video"
+            android:icon="@drawable/img_3"
+            android:onClick="video"/>
+    </group>
+
+
+    <item
+        android:id="@+id/email_settings"
+        android:orderInCategory="6"
+        android:title="Email"
+        android:icon="@drawable/img_4"/>
+    <item
+        android:id="@+id/add_settings"
+        android:orderInCategory="7"
+        android:title="Add"
+        android:icon="@drawable/img_5"/>
+    <item
+        android:id="@+id/copy_settings"
+        android:orderInCategory="8"
+        android:title="Copy"
+        android:icon="@drawable/img_6"/>
+    <item
+        android:id="@+id/paste_settings"
+        android:orderInCategory="9"
+        android:title="Paste"
+        android:icon="@drawable/img_7"
+        />
+    <item
+        android:id="@+id/help_settings"
+        android:orderInCategory="10"
+        android:title="Help"
+        android:icon="@drawable/img_8"/>
+</menu>
